@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.follow-outer-div {
+    font-family: 'Slabo 27px';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #000080;
+}
+  
+.follow-us-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.follow-us-left, .follow-us-right { 
+    flex: 1;
+    padding: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.follow-icons {
+    padding: 4vw;
+}
+
+
+.follow-us-heading {
+    padding-top: 5vw;
+    font-size: 3em;
+    color: #000080;
+    font-weight: bolder;
+
+    
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+/* 
+
+.meet-us-outer-div {
+    font-family: 'Slabo 27px';
+} */
+
+.meet-us-outer-div {
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Slabo 27px';
+    font-weight: bold;
+    margin-top: 4vw;
+    color: #000080;
+    font-size: x-large;
+    flex-direction: column;
+}
+
+/* .meet-us-inner-div {
+    color:#000080;
+    font-family: 'Slabo 27px';
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2vw;
+} */
+
+.meet-us-right-side, .meet-us-left-side {
+    flex: 1;
+}
+
+
+/* MeetUs.css */
+.meet-us-inner-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px; 
+    justify-items: center; 
+    color:#000080;
+    font-family: 'Slabo 27px';
+    padding-top: 4vw;
+  }
+  

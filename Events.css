@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+.events-outer-div {
+    padding-top: 11vw;
+    width: 100%;
+    text-align: center;
+    font-family: 'Slabo 27px';
+    font-weight: bold;
+}
+
+.events-heading {
+    padding-top: 3vw;
+    font-size: 3em;
+    color: #000080;
+    font-weight: bolder;
+}
+
+.events-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-image-scroll,
+.events-image-description {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-image-scroll {
+    padding-right: 10px; 
+}
+
+.events-image-description {
+    padding-left: 10px; 
+    padding-right: 7vw;
+}
+
+.events-image-scroll .carousel-container {
+    max-width: 50%; 
+}
+
+.events-image-scroll .carousel-container img {
+    max-width: 100%;
+    height: auto;
+}
